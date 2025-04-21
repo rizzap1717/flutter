@@ -9,6 +9,7 @@ void main() {
   Get.lazyPut(() => DashboardController(), fenix: true);
   runApp(
     GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
